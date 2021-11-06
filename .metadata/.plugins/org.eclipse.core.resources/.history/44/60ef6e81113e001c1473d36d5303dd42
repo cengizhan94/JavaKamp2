@@ -1,0 +1,26 @@
+package intro2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String internetSubeButonu = "Ýnternet Þubesine Giriþ";
+			
+		
+		
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		System.out.println(internetSubeButonu);
+		
+       
+	
+
+	}
+
+}

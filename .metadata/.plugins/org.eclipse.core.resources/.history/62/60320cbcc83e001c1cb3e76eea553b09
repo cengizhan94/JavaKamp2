@@ -1,0 +1,12 @@
+package odev1;
+
+public class Lesson2Temel {
+	public Lesson2Temel(int id, String lessonName, String teacherName, double participationRate, String lessonDescription) {
+		// TODO Auto-generated constructor stub
+	}
+	int id;
+	String lessonName;
+	String teacherName;
+	double participationRate;
+	String lessonDescription;
+}

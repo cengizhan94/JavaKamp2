@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		BookCase book1 = new BookCase(2019,"Mehmet Yýldýz","Hayal Hanem");
+			book1.printYear = 2019;
+			book1.publisherName = "Mehmet Yýlmaz";
+			book1.theAuthor = "Hayal Hanem";
+		BookCase book2 = new BookCase(2020,"Adem Güneþ","Zirve");
+			BookCase[] books = {
+					book1,book2
+			};
+			System.out.println();
+		
+		for(BookCase book : books) {
+				
+		}
+	}
+
+}

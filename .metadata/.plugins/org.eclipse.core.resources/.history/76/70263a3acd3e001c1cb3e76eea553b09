@@ -1,0 +1,30 @@
+package odev1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Lesson1JavaScript lesson1 = new Lesson1JavaScript
+				(1, "JavaScript","Yazýlým Geliþtirici Kampý","Engin Demiroð",true,100);
+		lesson1.id = 1;
+		lesson1.lessonName = "JavaScript";
+		lesson1.lessonDescription = "Yazýlým Geliþtirici Kampý";
+		lesson1.teacherName = "Engin Demiroð";
+		lesson1.homeWork = true;
+		lesson1.participationRate = 100;
+
+		Lesson2Temel lesson2 = new Lesson2Temel
+				(2,"Programlama Mantýðý","Engin Demiroð",100,"Yazýlým Geliþtirici Kampý Giriþ",false);
+		lesson2.id = 2;
+		lesson2.lessonName = "Programlama Mantýðý";
+		lesson2.lessonDescription = "Yazýlým Geliþtirici Kampý Giriþ";
+		lesson2.teacherName= "Engin Demiroð";
+		lesson2.homeWork = false;
+		lesson2.participationRate = 100;
+		
+		lessonManager manager = new lessonManager();
+		manager.addLesson(lesson1, lesson2);
+		System.out.println(manager);
+		
+	}
+
+}

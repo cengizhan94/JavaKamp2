@@ -1,0 +1,18 @@
+package odev1;
+
+public class Lesson1JavaScript {
+	
+	public Lesson1JavaScript(int id, String lessonName, String lessonDescription,
+			 String teacherName, boolean homeWork, double participationRate) {
+		
+	}
+	
+int id;
+String lessonName;
+String lessonDescription;
+String teacherName;
+boolean homeWork;
+double participationRate;
+
+}
+

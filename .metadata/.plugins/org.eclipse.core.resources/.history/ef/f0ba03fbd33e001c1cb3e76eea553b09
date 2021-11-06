@@ -1,0 +1,28 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		BookCase book3 = new BookCase(2021,"Cengiz","KayýpruhlarAkademisi");
+		
+		BookCase book1 = new BookCase(2019,"Mehmet Yýldýz","Hayal Hanem");
+			book1.printYear = 2019;
+			book1.publisherName = "Hayal Hanem";
+			book1.theAuthor = "Mehmet Yýldýz";
+		BookCase book2 = new BookCase(2020,"Adem Güneþ","Zirve");
+			book2.printYear = 2020;
+			book2.publisherName = "Zirve";
+			book2.theAuthor="Adem Güneþ";
+			BookCase[] books = {
+					book1,book2,book3
+			};
+			for (BookCase bookCase : books) {
+				System.out.println(book1.publisherName);
+				System.out.println(book2.theAuthor);
+				System.out.println(book3.printYear);
+			}
+			
+		
+	
+	}
+
+}

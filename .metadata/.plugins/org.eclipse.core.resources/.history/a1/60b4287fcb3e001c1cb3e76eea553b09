@@ -1,0 +1,19 @@
+package odev1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Lesson1JavaScript lesson1 = new Lesson1JavaScript
+				(1, "JavaScript","Yazýlým Geliþtirici Kampý","Engin Demiroð",true,100);
+		System.out.println(lesson1);
+
+		Lesson2Temel lesson2 = new Lesson2Temel
+				(2,"Programlama Mantýðý","Engin Demiroð",100,"Yazýlým Geliþtirici Kampý Giriþ",true);
+		System.out.println(lesson2);
+		
+		lessonManager manager = new lessonManager();
+		System.out.println("Dersler eklendi" + manager);
+		
+	}
+
+}

@@ -1,0 +1,50 @@
+package oopÝntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product product1 = new Product(); //Örnek oluþturma , intance, referans oluþturma denir.
+		product1.id = 1;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 GB RAM";
+		
+		Product product4 = new Product(); //Örnek oluþturma , intance, referans oluþturma denir.
+		product1.id = 4;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 GB RAM";
+		
+		Product product3 = new Product(); //Örnek oluþturma , intance, referans oluþturma denir.
+		product1.id = 3;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 GB RAM";
+		
+		Product product2 = new Product(); //Örnek oluþturma , intance, referans oluþturma denir.
+		product1.id = 2;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 GB RAM";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Product[] products= {product1,product2,product3,product4};
+		
+		
+		
+		
+		
+		
+		System.out.println(products.length);
+		
+
+	}
+
+}

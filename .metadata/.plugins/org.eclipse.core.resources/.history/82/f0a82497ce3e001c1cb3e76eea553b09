@@ -1,0 +1,7 @@
+package odev1;
+public class lessonManager {
+	public void addLesson(LessonJavaScript lesson1 , Lesson2Temel lesson2) {
+		System.out.println("Ders eklendi" + lesson1.lessonName);
+		System.out.println("Ders eklendi" + lesson2.lessonName);
+	}
+}

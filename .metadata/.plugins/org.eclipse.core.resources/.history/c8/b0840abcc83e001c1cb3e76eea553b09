@@ -1,0 +1,10 @@
+package odev1;
+
+public class Lesson1JavaScript {
+int id;
+String lessonName;
+String lessonDescription;
+String teacherName;
+boolean homeWork;
+
+}

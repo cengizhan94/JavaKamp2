@@ -1,0 +1,27 @@
+package intro2;
+
+public class Main {
+
+			//Don't Repeat Yourself
+	public static void main(String[] args) {
+		String internetSubeButonu = "Ýnternet Þubesine Giriþ";
+			double dolarDun = 8.15;
+			double dolarBugun = 8.18;
+			int vade  = 36;
+			boolean dustuMu = false;
+		
+		
+		System.out.println(internetSubeButonu);
+		
+			if(dolarBugun<dolarDun) {
+				System.out.println("Dolar düþtü img");
+			}
+			
+			
+			}
+       
+	
+
+	}
+
+}

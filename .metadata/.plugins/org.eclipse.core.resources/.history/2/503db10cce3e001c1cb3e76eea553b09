@@ -1,0 +1,19 @@
+package odev1;
+
+public class Lesson2Temel {
+	public Lesson2Temel(int id, String lessonName, String teacherName, 
+			double participationRate, String lessonDescription,boolean homeWork) {
+		this.id = id;
+		this.lessonName = lessonName;
+		this. teacherName = teacherName;
+		this.participationRate = participationRate;
+		this.lessonDescription = lessonDescription;
+		this.homeWork = homeWork;
+	}
+	int id;
+	String lessonName;
+	String teacherName;
+	double participationRate;
+	String lessonDescription;
+	boolean homeWork;
+}
