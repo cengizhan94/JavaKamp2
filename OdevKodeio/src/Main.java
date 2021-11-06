@@ -14,6 +14,8 @@ public class Main {
 			};
 			for (BookCase bookCase : books) {
 				System.out.println(book1.theAuthor + " " + book1.publisherName);
+
+				
 				
 			}
 				BookCaseManager manager = new BookCaseManager();
